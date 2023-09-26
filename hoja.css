@@ -1,0 +1,158 @@
+
+/*Titulo de la primera linea de la pagina*/
+h1 {
+    color: blue;
+  }
+
+/* Estilo para el elemento <font> */
+font {
+  font-size: 40px; /* Cambia el tamaño de fuente según tus preferencias */
+}
+
+/* Estilo para la clase "nombre" */
+.nombre {
+  color: rojo; /* Cambia el color del texto a rojo o el color que desees */
+  font-weight: bold; /* Hace que el texto esté en negrita */
+  /* Otros estilos CSS que desees aplicar */
+}
+
+/* Estilo para la clase "enlace" */
+.enlace {
+  display: block; /* Muestra el enlace en su propia línea */
+  color: blue; /* Cambia el color del texto a azul o el color que desees */
+  text-decoration: none; /* Elimina la subrayado predeterminado del enlace */
+  margin-top: 10px; /* Agrega margen superior */
+  margin-bottom: 10px; /* Agrega margen inferior */
+  /* Otros estilos CSS que desees aplicar */
+}
+
+
+
+/*evitar que los elementos floten alrededor*/
+  .imagen-y-texto {
+    clear: both;
+  }
+/*Pone la posición de la imagen*/
+  .imagen {
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-right: 20px; /* Agrega un espacio entre la imagen y el texto */
+  }
+
+/* Estilos para la sección de habilidades técnicas */
+#IdHabilidad-Tecnica {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: purple;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilo para la lista de habilidades técnicas */
+#IdHabilidad-Tecnica ul {
+  list-style-type: none; /* Elimina las viñetas de la lista */
+  margin: 0; /* Elimina el margen predeterminado */
+  padding: 0; /* Elimina el espaciado interno predeterminado */
+  display: flex; /* Usa display flex para alinear horizontalmente los elementos */
+}
+
+/* Estilo para los elementos de la lista de habilidades técnicas */
+#IdHabilidad-Tecnica ul li {
+  text-align: center; /* Alinea cada elemento al centro */
+  margin: 10px; /* Agrega un espacio entre los elementos */
+  flex: 1; /* Distribuye el espacio horizontalmente entre los elementos */
+}
+
+/* Estilo para la imagen */
+.imagen {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Estilos para las secciones de habilidades blandas */
+#IdHabilidad-Blanda {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: purple;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilo para la lista de habilidades blandas */
+#IdHabilidad-Blanda ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Estilo para los elementos de la lista de habilidades blandas */
+#IdHabilidad-Blanda ul li {
+  margin: 10px;
+}
+
+
+
+  .mi-clase{
+    font-size: 18px;
+  }
+
+   /* Estilo para el fondo de las celdas de la tabla */
+   table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  /*Bordes del tamaño de la tabla color negro*/
+  table th, table td {
+    padding: 10px;
+    border: 2px solid black;
+  }
+  /*Color de cada columna asignada*/
+  table th.grado {
+    background-color: purple
+  }
+   /*Color de cada columna asignada*/
+  table th.titulo {
+    background-color: purple
+  }
+   /*Color de cada columna asignada*/
+  table th.institucion {
+    background-color: purple 
+  }
+
+  /*Id de clase habilidades blandas*/
+
+  #IdHabilidad-Blanda{
+    background-color: purple;
+  }
+  
+   /*Id de clase habilidades técnicas*/
+  #IdHabilidad-Tecnica {
+    background-color: purple;
+  }
+
+
+/*Fondo de pantalla color rosado la pagina*/
+  .rosado {
+    background-color: pink; 
+  }
+
+  .submenu {
+    display: block; /* Muestra los submenús por defecto */
+  }
+  
+ /* Estilo para el enlace que mostrará el submenú */
+ .mostrar-submenu {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+  /* Estilo para la tabla para mantener el fondo blanco */
+table {
+  background-color: white; 
+}
+
+
+  

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Hoja de vida de Karla Morales Castrillo">
+  <meta name="keywords" content="HTML, CSS, JavaScript, currículum, habilidades">
+  <meta name="author" lang="es" content="Karla Morales Castrillo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Vida</title>
+  <link rel="stylesheet" type="text/css" href="hoja.css">
+  <style>
+    body {
+      background-color: pink; /* Aplicar fondo de pantalla color rosa */
+    }
+    h1 {
+      color: blue; /* Aplicar estilo al encabezado h1 */
+    }
+    .nombre {
+      font-size: 24px; /* Tamaño de fuente para el nombre */
+    }
+    .enlace {
+      text-decoration: none; /* Eliminar subrayado de enlace */
+      color: purple; /* Color del enlace */
+    }
+    .imagen {
+      max-width: 100%; /* Hacer que la imagen sea responsive */
+    }
+    #IdHabilidad-Blanda, #IdHabilidad-Tecnica {
+      background-color: purple; /* Aplicar color de fondo */
+      color: white; /* Color de texto */
+      padding: 10px; /* Espaciado interno */
+      margin-bottom: 20px; /* Espacio inferior */
+    }
+    ul {
+      list-style-type: square; /* Estilo de lista con viñetas cuadradas */
+    }
+
+    table {
+      border-collapse: collapse; /* Colapsar bordes de la tabla */
+      width: 100%; /* Ancho de la tabla al 100% */
+    }
+    th, td {
+      border: 1px solid black; /* Borde de celda */
+      padding: 8px; /* Espaciado interno de celda */
+      text-align: center; /* Alineación de texto en celdas */
+    }
+    .grado {
+      color: red; /* Color de texto para la clase grado */
+    }
+  </style>
+</head>
+<body>
+  <h1>Mi Curriculum Vitae</h1>
+  <font size="10" class="nombre">Karla Morales Castrillo</font>
+  <a href="PaginaExtra.html" class="enlace">Conozca más de mí</a>
+  <div class="imagen-y-texto">
+    <img src="ImagenPerfil.jpg" alt="Foto" class="imagen">
+    <div id="IdHabilidad-Blanda">
+      <h2>Habilidades Blandas</h2>
+      <ul>
+        <li>Trabajo en equipo</li>
+        <li>Empatía</li>
+        <li>Adaptabilidad</li>
+        <li>Gestión del tiempo</li>
+      </ul>
+    </div>
+    <div id="IdHabilidad-Tecnica">
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li>Conocimiento en lenguajes de programación en C# y en Java</li>
+        <li>Habilidad en realizar currículum en HTML</li>
+        <li>Domino un 60% del idioma inglés</li>
+        <li>Manejo de Base de Datos SQL</li>
+      </ul>
+    </div>
+   
+    <table border="1">
+      <tr>
+        <th class="grado">Grado/Año</th>
+        <th class="titulo">Título o certificación</th>
+        <th class="institucion">Institución</th>
+      </tr>
+      <tr>
+        <td style="color: red;">2003-2009</td>
+        <td>Primaria</td>
+        <td><a href="https://drea.mep.go.cr/circuito-04/escuela-leon-cortes-castro" target="_blank">Escuela León Cortés Castro</a></td>
+      </tr>
+      <tr>
+        <td style="color: red;">2012-2014-2015</td>
+        <td>
+          <ul class="submenu">
+            <li>Conclusión de Estudios de Educación General Básica</li>
+            <li>Tecnología de Diseño Gráfico</li>
+            <li>Bachillerato de Secundaria</li>
+          </ul>
+        </td>
+        <td><a href="https://drea.mep.go.cr/circuito-04/liceo-san-rafael-de-alajuela" target="_blank">Liceo San Rafael de Alajuela</a></td>
+      </tr>
+      <tr>
+        <td style="color: red;">2016-2017-2018</td>
+        <td>
+          <ul class="submenu">
+            <li>Linux Professional Institute</li>
+            <li>NDG Linux Unhatched</li>
+            <li>Introducción a la Ciberseguridad</li>
+          </ul>
+        </td>
+        <td><a href="https://www.utn.ac.cr/cursos-tecnicos-por-sede" target="_blank">Universidad Técnica Nacional</a></td>
+      </tr>
+      <tr>
+        <td style="color: red;">2020-2022</td>
+        <td>
+          <ul class="submenu">
+            <li><a href="https://www.coursera.org/account/accomplishments/specialization/RDVVAP643RN6" target="_blank">Improve Your English Communication Skills</a></li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/Q6GWGJTJB4TS" target="_blank">Introduction to Docker: Build Your Own Portfolio Site</a></li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/5HDKYMDMUKLN" target="_blank">Command Line Basics in Linux</a></li>
+            <li><a href="https://www.coursera.org/account/accomplishments/verify/SDNP42NZ879X" target="_blank">Build Your First React Website</a></li>
+          </ul>
+        </td>
+        <td><a href="https://www.coursera.org/" target="_blank">Coursera</a></td>
+      </tr>
+      <tr>
+        <td style="color: red;">2023</td>
+        <td>
+          <ul class="submenu">
+            <li>Introducción al Desarrollo Web I (40 horas)</li>
+            <li>Introducción al Desarrollo Web II (40 horas)</li>
+          </ul>
+        </td>
+        <td><a href="https://grow.google/intl/es/courses-and-tools/" target="_blank">Google Activate</a></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

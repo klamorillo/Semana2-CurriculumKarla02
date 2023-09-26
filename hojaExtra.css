@@ -1,0 +1,36 @@
+/* Estilos para el título h1 */
+h1 {
+    color: blue;
+    text-align: center;
+  }
+  
+  /* Estilos para el contenedor de información extra */
+  .informacion-extra {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Estilos para el título h4 */
+  h4 {
+    color: green;
+  }
+  
+  /* Estilos para los párrafos dentro del contenedor */
+  .informacion-extra p {
+    margin: 10px 0;
+  }
+  
+  /* Estilos para las líneas horizontales */
+  hr {
+    border: 1px solid black;
+  }
+  
+  /* Estilos para la imagen */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid black;
+  }
+  
